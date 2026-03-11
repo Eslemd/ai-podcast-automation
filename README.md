@@ -23,6 +23,15 @@ ile seslendirilmiş podcast formatına dönüştürür.
 - ElevenLabs API
 - HTTP Request / JSON tabanlı entegrasyon
 
+- ## Sistem Akışı
+
+1. Workflow manuel olarak tetiklenir
+2. Podcast metni girilir
+3. LLM API ile podcast metni oluşturulur
+4. Metin düzenlenir
+5. ElevenLabs API ile seslendirme yapılır
+6. Podcast çıktısı üretilir
+
 ## Proje Yapısı
 
 Bu repoda projenin mimarisi, ekran görüntüleri ve örnek çıktılar paylaşılmaktadır.
